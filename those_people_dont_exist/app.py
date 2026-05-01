@@ -251,7 +251,7 @@ def refresh_image(img: wx.StaticBitmap, reqid: int):
 
 
 def refresh_images(img_grid: list, event: object):
-    logging.info("Sceduling the global refresh..")
+    logging.info("Scheduling the global refresh...")
     for img in img_grid:
         refresh_image(img, img_grid.index(img))
 
